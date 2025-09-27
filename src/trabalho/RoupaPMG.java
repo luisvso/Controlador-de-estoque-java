@@ -22,7 +22,6 @@ public class RoupaPMG implements Item {
         Scanner c = new Scanner(System.in);
         System.out.println("Me diga o tamanho que deseja vender: ");
         String tamanho = c.next();
-        String name;
 
         if (tamanho.toUpperCase().equals("P")) {
             this.setQuantidadeP(this.quantidadeP - 1);
