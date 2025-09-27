@@ -23,8 +23,6 @@ public class App {
         pecas[3] = b;
         pecas[4] = r9;
 
-        String pessoa;
-
         do {
             System.out.println("0 - " + pecas[0].getDescricao());
             System.out.println("1 -" + pecas[1].getDescricao());
